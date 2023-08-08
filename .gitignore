@@ -8,3 +8,6 @@ wheels/
 
 # venv
 .venv
+
+# simple-keyboard-service
+src/simple_keyboard_service/data.json
