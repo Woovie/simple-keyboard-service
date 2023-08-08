@@ -1,0 +1,25 @@
+[project]
+name = "simple-keyboard-service"
+version = "0.1.0"
+description = "A basic storage system for data from Shopify vendors of custom keyboards"
+authors = [
+    { name = "Jordan Banasik", email = "woovie@woovie.net" }
+]
+dependencies = [
+    "fastapi>=0.101.0",
+    "uvicorn[standard]>=0.23.2",
+    "requests>=2.31.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
